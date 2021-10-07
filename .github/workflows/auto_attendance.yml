@@ -47,5 +47,6 @@ jobs:
         echo 'Start Running'
         mv $GITHUB_WORKSPACE/config.yml $GITHUB_WORKSPACE/fuckTodayStudy/config.yml
         mv $GITHUB_WORKSPACE/sign.jpg $GITHUB_WORKSPACE/fuckTodayStudy/sign.jpg
+        mv $GITHUB_WORKSPACE/system.yml $GITHUB_WORKSPACE/fuckTodayStudy/login/system.yml
         cd $GITHUB_WORKSPACE/fuckTodayStudy
         python index.py
