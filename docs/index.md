@@ -1,4 +1,4 @@
-# TodayStudy_Action
+# 今日校园自动化签到/查寝/信息收集
 
 [![Attendance](https://github.com/Boos4721/TodayStudy_Action/actions/workflows/auto_attendance.yml/badge.svg)](https://github.com/Boos4721/TodayStudy_Action/actions/workflows/auto_attendance.yml)
 
@@ -23,4 +23,15 @@
 
 ## 个人建议
 
-### 测试完成后改成私人项目最佳
+- 测试完成后改成私人项目最佳
+- [如何转成私人](https://blog.csdn.net/cnds123321/article/details/86763411)
+
+## 引用说明
+
+- [若离的今日校园脚本](https://github.com/thriving123/fuckTodayStudy.git)
+- [Microsoft Azure](https://azure.microsoft.com)
+- [GitHub Actions](https://github.com/features/actions)
+
+## License
+
+[MIT](https://github.com/Boos4721/TodayStudy_Action/blob/master/LICENSE) © [**Boos4721**](https://boos4721.github.io/TodayStudy_Action/)
