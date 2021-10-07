@@ -10,15 +10,13 @@
 
 ## 配置&部署
 
-1. 编辑里面的config.yml为你自己的配置
+1. 编辑里面的 **[config.yml](https://github.com/Boos4721/TodayStudy_Action/blob/master/config.yml)** 为你自己的配置
 2. 替换`sign.jpg`为你的图片(**如果你不需要**)
-3. 若你登录需要验证码登录修改`system.yml`
-4. 修改`.github/workflows/auto_attendance.yml`里的第七行划重点 这里是**UTC**
-时间
-5. 这样到时间就可以自动进行签到了
-6. btw 这是cron表达式 不支持秒 [点我查看Github说明](https://docs.github.com/
-cn/actions/learn-github-actions/
-workflow-syntax-for-github-actions#example)
+3. 若你登录需要验证码登录修改 **[system.yml](https://github.com/Boos4721/TodayStudy_Action/blob/master/system.yml)**
+4. 修改`.github/workflows/auto_attendance.yml`里的 **[第七行](https://github.com/Boos4721/TodayStudy_Action/blob/fb628fab34357fc904f73232ec227744e4035d7c/.github/workflows/auto_attendance.yml#L7)** 划重点这里是使用的是**UTC**时间<br>
+**[在线转换UTC时间](http://www.timebie.com/cn/universalbeijing.php)**
+5. 到了你设置的时间就可以自动进行**签到/查寝/信息收集**了
+6. `Github`使用的是**POSIX cron 语法**不支持秒 [点我查看Github说明](https://docs.github.com/cn/actions/learn-github-actions/workflow-syntax-for-github-actions#example)
 
 ## 测试
 
