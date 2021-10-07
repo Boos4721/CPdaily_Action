@@ -27,7 +27,7 @@ jobs:
         DEBIAN_FRONTEND: noninteractive
       run: |
         sudo -E apt-get -qq update
-        sudo -E apt-get -qq install git subversion git-core wget python3-pip
+        sudo -E apt-get -qq install git subversion git-core python3-pip
         sudo timedatectl set-timezone "$TZ"
 
     - name: Set up Python 3.7
@@ -47,5 +47,5 @@ jobs:
         echo 'Start Running'
         mv $GITHUB_WORKSPACE/config.yml $GITHUB_WORKSPACE/fuckTodayStudy/config.yml
         mv $GITHUB_WORKSPACE/sign.jpg $GITHUB_WORKSPACE/fuckTodayStudy/sign.jpg
-        cd fuckTodayStudy
+        cd $GITHUB_WORKSPACE/fuckTodayStudy
         python index.py
