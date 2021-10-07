@@ -11,10 +11,14 @@
 ## 配置&部署
 
 1. 编辑里面的config.yml为你自己的配置
-2. 并替换你的图片(**如果你不需要**)
-3. 修改`.github/workflows/auto_attendance.yml`里的第七行划重点 这里是**UTC**时间
-4. 这样到时间就可以自动进行签到了
-5. btw 这是cron表达式 不支持秒 [点我查看Github说明](https://docs.github.com/cn/actions/learn-github-actions/workflow-syntax-for-github-actions#example)
+2. 替换`sign.jpg`为你的图片(**如果你不需要**)
+3. 若你登录需要验证码登录修改`system.yml`
+4. 修改`.github/workflows/auto_attendance.yml`里的第七行划重点 这里是**UTC**
+时间
+5. 这样到时间就可以自动进行签到了
+6. btw 这是cron表达式 不支持秒 [点我查看Github说明](https://docs.github.com/
+cn/actions/learn-github-actions/
+workflow-syntax-for-github-actions#example)
 
 ## 测试
 
