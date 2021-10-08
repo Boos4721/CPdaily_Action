@@ -16,7 +16,7 @@
 4. 修改`.github/workflows/auto_attendance.yml`里的 **[第七行](https://github.com/Boos4721/TodayStudy_Action/blob/fb628fab34357fc904f73232ec227744e4035d7c/.github/workflows/auto_attendance.yml#L7)** 划重点这里是使用的是**UTC**时间<br>
 **[在线转换UTC时间](http://www.timebie.com/cn/universalbeijing.php)**
 5. 到了你设置的时间就可以自动进行**签到/查寝/信息收集**了
-6. `Github`使用的是**POSIX cron 语法**不支持秒 [点我查看Github说明](https://docs.github.com/cn/actions/learn-github-actions/workflow-syntax-for-github-actions#example)
+6. `Github`使用的是**POSIX cron 语法**不支持秒 **设置的时间可以提前10-15分钟，因为`Action`有一点延迟**<br>[点我查看Github说明](https://docs.github.com/cnactions/learn-github-actions/workflow-syntax-for-github-actions#example)
 
 ## 测试
 
