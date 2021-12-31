@@ -29,7 +29,6 @@ jobs:
         sudo -E apt-get -qq update
         sudo -E apt-get -qq install git subversion git-core python3-pip
         sudo timedatectl set-timezone "$TZ"
-
     - name: Set up Python 3.9
       uses: actions/setup-python@v1
       with:
@@ -38,7 +37,7 @@ jobs:
     - name: Clone repo & Setup pip
       run: |
         echo 'Start Cloning'
-        git clone https://github.com/thriving123/fuckTodayStudy.git --depth=1
+        git clone https://gitlab.com/Boos4721/fucktodaystudy.git --depth=1 fuckTodayStudy
         cd fuckTodayStudy
         pip3 install -r requirements.txt
       
