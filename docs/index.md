@@ -6,7 +6,7 @@
 
 1. 点击右上绿色的**Use this template**
 2. 如图部署到你的仓库后开始第二步
-![](https://github.com/Boos4721/TodayStudy_Action/raw/master/docs/1.jpg)
+![1](docs/1.jpg)
 
 ## 配置&部署
 
@@ -16,12 +16,17 @@
 4. 修改`.github/workflows/auto_attendance.yml`里的 **[第七行](https://github.com/Boos4721/TodayStudy_Action/blob/fb628fab34357fc904f73232ec227744e4035d7c/.github/workflows/auto_attendance.yml#L7)** 划重点这里是使用的是**UTC**时间<br>
 **[在线转换UTC时间](http://www.timebie.com/cn/universalbeijing.php)**
 5. 到了你设置的时间就可以自动进行**签到/查寝/信息收集**了
-6. `Github`使用的是**POSIX cron 语法**不支持秒 **设置的时间可以提前10-15分钟，因为`Action`有一点延迟**<br>[点我查看Github说明](https://docs.github.com/cnactions/learn-github-actions/workflow-syntax-for-github-actions#example)
+6. `Github`使用的是**POSIX cron 语法**不支持秒 **设置的时间可以提前10-15分钟，因为`Action`略有延迟**<br>
+[点我查看Github说明](https://docs.github.com/cn/actions/learn-github-actions/workflow-syntax-for-github-actions#example)
 
 ## 测试
 
 1. 点击右上的**Star**
 2. 进入**Actions**查看运行状态
+
+## 关闭自动签到/放假不用签到
+![1](docs/2.png)
+- `Action` > `Attendance` > `Disable Workflow` 即可
 
 ## 个人建议
 
