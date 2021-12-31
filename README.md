@@ -24,6 +24,10 @@
 1. 点击右上的**Star**
 2. 进入**Actions**查看运行状态
 
+## 关闭自动签到/放假不用签到
+![1](docs/2.png)
+- `Action` > `Attendance` > `Disable Workflow` 即可
+
 ## 个人建议
 
 - 测试完成后改成私人项目最佳
