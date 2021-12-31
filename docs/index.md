@@ -6,7 +6,7 @@
 
 1. 点击右上绿色的**Use this template**
 2. 如图部署到你的仓库后开始第二步
-![1](docs/1.jpg)
+![](https://github.com/Boos4721/TodayStudy_Action/raw/master/docs/1.jpg)
 
 ## 配置&部署
 
@@ -25,7 +25,7 @@
 2. 进入**Actions**查看运行状态
 
 ## 关闭自动签到/放假不用签到
-![1](docs/2.png)
+![](https://github.com/Boos4721/TodayStudy_Action/raw/master/docs/2.png)
 - `Action` > `Attendance` > `Disable Workflow` 即可
 
 ## 个人建议
