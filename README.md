@@ -1,5 +1,9 @@
 # 今日校园自动化签到/查寝/信息收集
 
+# 请支持若离项目 目前可正常运行(https://www.likedream.xyz/login)
+```邀请码:2a37ba```
+<img width="1510" alt="image" src="https://github.com/user-attachments/assets/01a71869-ae0c-420e-ad95-94ff41b43380" />
+
 [![今日签到状态](https://github.com/Boos4721/CPdaily_Action/actions/workflows/auto_attendance.yml/badge.svg)](https://github.com/Boos4721/CPdaily_Action/actions/workflows/auto_attendance.yml)
 
 ## 如何使用
